@@ -18,6 +18,10 @@ public class Gui extends javax.swing.JFrame {
         initComponents();
     }
 
+    // my code!!!! ***********************
+    Logic brain = new Logic();
+
+    //  **********************************
     /**
      * This method is called from within the constructor to initialize the form.
      * WARNING: Do NOT modify this code. The content of this method is always
@@ -54,6 +58,7 @@ public class Gui extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setForeground(new java.awt.Color(105, 157, 199));
 
+        jButton2.setFont(new java.awt.Font("Noto Sans", 1, 18)); // NOI18N
         jButton2.setText("C");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -61,6 +66,7 @@ public class Gui extends javax.swing.JFrame {
             }
         });
 
+        jButton4.setFont(new java.awt.Font("Noto Sans", 1, 18)); // NOI18N
         jButton4.setText("AC");
         jButton4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -68,6 +74,7 @@ public class Gui extends javax.swing.JFrame {
             }
         });
 
+        jButton5.setFont(new java.awt.Font("Noto Sans", 1, 18)); // NOI18N
         jButton5.setText("π");
         jButton5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -75,13 +82,16 @@ public class Gui extends javax.swing.JFrame {
             }
         });
 
-        jButton6.setText("jButton2");
+        jButton6.setFont(new java.awt.Font("Noto Sans", 1, 18)); // NOI18N
+        jButton6.setText("+");
+        jButton6.setToolTipText("");
         jButton6.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton6ActionPerformed(evt);
             }
         });
 
+        jButton3.setFont(new java.awt.Font("Noto Sans", 1, 18)); // NOI18N
         jButton3.setText("7");
         jButton3.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -94,6 +104,7 @@ public class Gui extends javax.swing.JFrame {
             }
         });
 
+        jButton7.setFont(new java.awt.Font("Noto Sans", 1, 18)); // NOI18N
         jButton7.setText("8");
         jButton7.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -101,6 +112,7 @@ public class Gui extends javax.swing.JFrame {
             }
         });
 
+        jButton8.setFont(new java.awt.Font("Noto Sans", 1, 18)); // NOI18N
         jButton8.setText("9");
         jButton8.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -108,13 +120,16 @@ public class Gui extends javax.swing.JFrame {
             }
         });
 
-        jButton9.setText("jButton2");
+        jButton9.setFont(new java.awt.Font("Noto Sans", 1, 18)); // NOI18N
+        jButton9.setText("-");
+        jButton9.setToolTipText("");
         jButton9.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton9ActionPerformed(evt);
             }
         });
 
+        jButton10.setFont(new java.awt.Font("Noto Sans", 1, 18)); // NOI18N
         jButton10.setText("4");
         jButton10.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -122,6 +137,7 @@ public class Gui extends javax.swing.JFrame {
             }
         });
 
+        jButton11.setFont(new java.awt.Font("Noto Sans", 1, 18)); // NOI18N
         jButton11.setText("5");
         jButton11.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -129,6 +145,7 @@ public class Gui extends javax.swing.JFrame {
             }
         });
 
+        jButton12.setFont(new java.awt.Font("Noto Sans", 1, 18)); // NOI18N
         jButton12.setText("6");
         jButton12.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -136,13 +153,15 @@ public class Gui extends javax.swing.JFrame {
             }
         });
 
-        jButton13.setText("jButton2");
+        jButton13.setFont(new java.awt.Font("Noto Sans", 1, 18)); // NOI18N
+        jButton13.setText("x");
         jButton13.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton13ActionPerformed(evt);
             }
         });
 
+        jButton14.setFont(new java.awt.Font("Noto Sans", 1, 18)); // NOI18N
         jButton14.setText("1");
         jButton14.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -150,6 +169,7 @@ public class Gui extends javax.swing.JFrame {
             }
         });
 
+        jButton15.setFont(new java.awt.Font("Noto Sans", 1, 18)); // NOI18N
         jButton15.setText("2");
         jButton15.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -157,6 +177,7 @@ public class Gui extends javax.swing.JFrame {
             }
         });
 
+        jButton16.setFont(new java.awt.Font("Noto Sans", 1, 18)); // NOI18N
         jButton16.setText("3");
         jButton16.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -164,13 +185,16 @@ public class Gui extends javax.swing.JFrame {
             }
         });
 
-        jButton17.setText("jButton2");
+        jButton17.setFont(new java.awt.Font("Noto Sans", 1, 18)); // NOI18N
+        jButton17.setText("÷");
+        jButton17.setToolTipText("");
         jButton17.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton17ActionPerformed(evt);
             }
         });
 
+        jButton18.setFont(new java.awt.Font("Noto Sans", 1, 18)); // NOI18N
         jButton18.setText("0");
         jButton18.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -178,6 +202,7 @@ public class Gui extends javax.swing.JFrame {
             }
         });
 
+        jButton20.setFont(new java.awt.Font("Noto Sans", 1, 18)); // NOI18N
         jButton20.setText(",");
         jButton20.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -185,6 +210,7 @@ public class Gui extends javax.swing.JFrame {
             }
         });
 
+        jButton21.setFont(new java.awt.Font("Noto Sans", 1, 18)); // NOI18N
         jButton21.setText("=");
         jButton21.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -313,7 +339,14 @@ public class Gui extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton5ActionPerformed
 
     private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton6ActionPerformed
-        // TODO add your handling code here:
+        //  + PLUS
+        brain.plus();
+        jTextArea1.setText("" + brain.getScreen());
+
+        System.out.println("+");
+        System.out.println(brain.getTotal());
+
+
     }//GEN-LAST:event_jButton6ActionPerformed
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
@@ -321,6 +354,9 @@ public class Gui extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton3ActionPerformed
 
     private void jButton7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton7ActionPerformed
+        brain.new_val(8);
+        jTextArea1.setText("" + brain.getScreen());
+        System.out.println(brain.getScreen());
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton7ActionPerformed
 
@@ -378,6 +414,9 @@ public class Gui extends javax.swing.JFrame {
 
     private void jButton3MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton3MouseClicked
         brain.new_val(7);
+        jTextArea1.setText("" + brain.getScreen());
+        System.out.println(brain.getScreen());
+
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton3MouseClicked
 
@@ -408,10 +447,6 @@ public class Gui extends javax.swing.JFrame {
         }
         //</editor-fold>
         //</editor-fold>
-
-        // my code!!!! ***********************
-        Logic brain = new Logic();
-        //  **********************************
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
