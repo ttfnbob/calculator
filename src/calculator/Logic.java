@@ -10,6 +10,7 @@ import java.text.DecimalFormat;
 /**
  *
  * @author stewart
+ * tt
  */
 public class Logic {
 
